@@ -5,7 +5,7 @@
 </head>
 <body>
   <form method="POST" action="/post_management/Controller/LoginController.php">
-    <input placeholder="Username" type="text" required="" name="username"><br><br>
+    <input placeholder="email" type="email" required="" name="email"><br><br>
     <input placeholder="Password" type="password" required="" name="password"><br><br>
     <button type="submit">Login</button> 
   </form> 

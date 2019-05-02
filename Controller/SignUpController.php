@@ -12,5 +12,6 @@
 	} else {
 		header('Location: '."/post_management/View/signup.php");
 	}
+
  
  ?>
