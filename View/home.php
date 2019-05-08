@@ -1,3 +1,12 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['email']) || time() > $_SESSION['expire'] ) {
+        session_destroy();
+        header('Location: '."/post_management/View/login.php");
+    }
+?>
+
 <style>
 table {
   font-family: arial, sans-serif;
