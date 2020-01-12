@@ -13,7 +13,7 @@ class DB_Management {
 			
 			if ($this->__conn->connect_error) {
 			    die("__connection failed: " . $this->__conn->connect_error);
-			} 
+			}
 		}
 	}
 

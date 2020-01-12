@@ -1,6 +1,6 @@
 <?php
 
-$DIR_FILE = 'D:\mysql\htdocs\post_management';
+$DIR_FILE = 'C:\xampp\htdocs\post_management';
 include($DIR_FILE. '\DB_Management.php');
 
 class User
